@@ -609,7 +609,7 @@ h2 span{
     font-size: 2.1rem;
     font-weight: 500;
     letter-spacing:0.2rem;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 #about .col-right p{
@@ -618,8 +618,9 @@ h2 span{
 
 #about .col-right .cta{
     color: black;
+    margin-left: 32%;
     margin-bottom: 50px;
-    /* padding: 15px 25px; */
+    padding: 17px 27px;
     font-size: 2rem;
 }
 
