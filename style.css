@@ -28,7 +28,7 @@ a {
 img {
     height: 100.5%;
     width: 100%;
-    border-radius:9px;
+    border-radius: 9px;
     object-fit: cover;
 }
 
@@ -67,7 +67,7 @@ p {
     justify-content: center;
     letter-spacing: 0.1rem;
     margin-top: 30px;
-    transition: 0.3s ease ;
+    transition: 0.3s ease;
     transition-property: background-color, color;
     font-weight: bold;
 }
@@ -77,27 +77,27 @@ p {
     background-color: #4f1226;
 }
 
-.brand h1{
+.brand h1 {
     font-size: 3rem;
     color: white;
 }
 
-.brand h1 span{
+.brand h1 span {
     color: #6e1833;
 }
 
-h2{
+h2 {
     font-size: 3rem;
     color: white;
     /* text-transform: uppercase; */
 }
 
-h2 span{
+h2 span {
     color: #6e1833;
     font-weight: 800;
 }
 
-#particles-js{
+#particles-js {
     position: absolute;
     left: 0;
     top: 0;
@@ -108,7 +108,7 @@ h2 span{
 
 /* header section starts */
 
-#header{
+#header {
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -117,30 +117,30 @@ h2 span{
     width: 100vw;
 }
 
-#header .header{
+#header .header {
     min-height: 8vh;
     background-color: rgba(31, 30, 31, 0.24);
     transition: 0.3s ease background-color;
 }
 
-#header .brand h1{
+#header .brand h1 {
     font-size: 3.5rem;
     transition: 0.3s ease;
 }
 
-#header .brand h1 span{
+#header .brand h1 span {
     transition: 0.3s ease;
 }
 
-#header .brand h1:hover{
+#header .brand h1:hover {
     color: #6e1833;
 }
 
-#header .brand h1:hover span{
+#header .brand h1:hover span {
     color: white;
 }
 
-.header .nav-bar{
+.header .nav-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -151,7 +151,7 @@ h2 span{
     padding: 0 10px;
 }
 
-#header .nav-list ul{
+#header .nav-list ul {
     list-style: none;
     position: absolute;
     background-color: rgb(31, 30, 30);
@@ -168,11 +168,11 @@ h2 span{
     transition: 0.3s ease left;
 }
 
-#header .nav-list ul.active{
+#header .nav-list ul.active {
     left: 0;
 }
 
-#header .nav-list ul a{
+#header .nav-list ul a {
     font-size: 3rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -183,16 +183,16 @@ h2 span{
     display: block;
 }
 
-#header .nav-list ul li a{
+#header .nav-list ul li a {
     transition: 0.1s ease;
 }
 
-#header .nav-list ul li:hover a{
+#header .nav-list ul li:hover a {
     color: #6c2038;
     font-weight: bold;
 }
 
-#header .nav-list ul a::after{
+#header .nav-list ul a::after {
     content: attr(data-after);
     position: absolute;
     top: 50%;
@@ -205,12 +205,12 @@ h2 span{
     transition: 0.3s ease letter-spacing;
 }
 
-#header .nav-list ul li:hover a::after{
+#header .nav-list ul li:hover a::after {
     transform: translate(-50%, -50%) scale(1);
     letter-spacing: initial;
 }
 
-#header .hamburger{
+#header .hamburger {
     z-index: 100;
     height: 60px;
     width: 60px;
@@ -227,7 +227,7 @@ h2 span{
     margin-right: 20px;
 }
 
-#header .hamburger.active::after{
+#header .hamburger.active::after {
     content: '';
     position: absolute;
     height: 100%;
@@ -237,7 +237,7 @@ h2 span{
     animation: hamburger_pulse 1s infinite;
 }
 
-#header .hamburger .bar{
+#header .hamburger .bar {
     height: 2px;
     width: 30px;
     position: relative;
@@ -246,7 +246,7 @@ h2 span{
 }
 
 #header .hamburger .bar::after,
-#header .hamburger .bar::before{
+#header .hamburger .bar::before {
     content: '';
     position: absolute;
     height: 100%;
@@ -257,19 +257,19 @@ h2 span{
     transition-property: top, bottom;
 }
 
-#header .hamburger .bar::after{
+#header .hamburger .bar::after {
     top: 10px;
 }
 
-#header .hamburger .bar::before{
+#header .hamburger .bar::before {
     bottom: 10px;
 }
 
-#header .hamburger.active .bar::before{
+#header .hamburger.active .bar::before {
     bottom: 0;
 }
 
-#header .hamburger.active .bar::after{
+#header .hamburger.active .bar::after {
     top: 0;
 }
 
@@ -285,7 +285,7 @@ h2 span{
     z-index: 1;
 }
 
-#hero .cta{
+#hero .cta {
     text-transform: capitalize;
 }
 
@@ -316,7 +316,7 @@ h2 span{
     color: transparent;
     animation: text_reveal 0.5s ease forwards;
     animation-delay: 1s;
-    
+
 }
 
 #hero h1:nth-child(1) {
@@ -367,11 +367,11 @@ h2 span{
     padding: 100px 0;
 }
 
-#services .service-top{
+#services .service-top {
     width: 100%;
     text-align: center;
     max-width: 0 auto;
-    
+
 }
 
 #services .service-top p {
@@ -448,25 +448,25 @@ h2 span{
 
 /* Projects section starts */
 
-#projects .projects{
+#projects .projects {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     padding: 1px 0;
 }
 
-#projects .projects-header h1{
+#projects .projects-header h1 {
     margin-bottom: 70px;
 }
 
-#projects .all-projects{
+#projects .all-projects {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#projects .project-item{
+#projects .project-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -477,8 +477,10 @@ h2 span{
     overflow: hidden;
 }
 
-#projects .project-info{
-    padding: 30px;
+#projects .project-info {
+    padding: 10px 30px;
+    /* padding-left: 30px;
+    padding-bottom: 30px; */
     flex-basis: 50%;
     background-color: white;
     height: 100%;
@@ -490,10 +492,10 @@ h2 span{
     color: white;
 }
 
-#projects .project-info h1{
+#projects .project-info h1 {
     font-size: 4rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 /* #projects .project-info h2{
@@ -502,18 +504,18 @@ h2 span{
     margin-top: 12px;
 } */
 
-#projects .project-info p{
+#projects .project-info p {
     color: white;
 }
 
-#projects .project-img{
+#projects .project-img {
     flex-basis: 50%;
     height: 350px;
     overflow: hidden;
     position: relative;
 }
 
-#projects .project-img::after{
+#projects .project-img::after {
     content: '';
     position: absolute;
     left: 0;
@@ -522,10 +524,11 @@ h2 span{
     width: 100%;
 }
 
-#projects .project-img img{
+#projects .project-img img {
     transition: 0.3s ease transform;
 }
-#projects .project-item:hover .project-img img{
+
+#projects .project-item:hover .project-img img {
     transform: scale(1.1);
 }
 
@@ -533,19 +536,19 @@ h2 span{
 
 /* project buttons start */
 
-.project-btn{
+.project-btn {
     display: flex;
     flex-basis: 80%;
     margin-top: 0.1rem;
     margin-bottom: 3rem;
 }
 
-.project-btn .space{
+.project-btn .space {
     margin: 0 1rem;
-    justify-content: space-around;
+    justify-content: space-around
 }
 
-#projects .all-projects .project-info .cta{
+#projects .all-projects .project-info .cta {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.5rem;
@@ -555,6 +558,7 @@ h2 span{
     display: inline-block;
     padding: 10px 10px;
     text-align: center;
+    height: 6.5rem;
     width: 20rem;
     color: white;
     background-color: transparent;
@@ -578,7 +582,7 @@ h2 span{
 
 /* about section starts */
 
-#about .about{
+#about .about {
     flex-direction: column-reverse;
     text-align: center;
     margin: 0 auto;
@@ -586,37 +590,40 @@ h2 span{
     max-width: 1200px;
 }
 
-#about .col-left{
+#about .col-left {
     width: 250px;
     height: 360px;
 }
-#about .about-img{
+
+#about .about-img {
     transition: transform 0.5s;
 }
-#about .about-img:hover{
+
+#about .about-img:hover {
     transform: translateX(-7px);
     cursor: pointer;
 }
 
-#about .col-right{
+#about .col-right {
     margin-left: 45px;
 }
-#about .col-right h1{
+
+#about .col-right h1 {
     margin-bottom: 1rem;
 }
 
-#about .col-right h2{
+#about .col-right h2 {
     font-size: 2.1rem;
     font-weight: 500;
-    letter-spacing:0.2rem;
+    letter-spacing: 0.2rem;
     /* margin-bottom: 20px; */
 }
 
-#about .col-right p{
+#about .col-right p {
     margin-bottom: 20px;
 }
 
-#about .col-right .cta{
+#about .col-right .cta {
     color: black;
     margin-left: 32%;
     margin-bottom: 50px;
@@ -624,18 +631,18 @@ h2 span{
     font-size: 2rem;
 }
 
-#about .col-right .cta:hover{
+#about .col-right .cta:hover {
     color: white;
 }
 
-#about .col-left .about-img{
+#about .col-left .about-img {
     height: 100%;
     width: 100%;
     position: relative;
     border: 10px solid white;
 }
 
-#about .col-left .about-img::after{
+#about .col-left .about-img::after {
     content: '';
     position: absolute;
     left: -33px;
@@ -650,17 +657,17 @@ h2 span{
 
 /* contact section starts */
 
-#contact .contact{
+#contact .contact {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-#contact .contact-items{
+#contact .contact-items {
     width: 400px;
 }
 
-#contact .contact-item{
+#contact .contact-item {
     width: 80%;
     padding: 20px;
     text-align: center;
@@ -675,29 +682,29 @@ h2 span{
     transition: 0.3 ease box-shadow;
 }
 
-#contact .contact-item:hover{
+#contact .contact-item:hover {
     box-shadow: 0px 0px 5px 0 #0000002c;
 }
 
-#contact .icon{
+#contact .icon {
     width: 70px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
 
-#contact .contact-info h1{
+#contact .contact-info h1 {
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 5px;
 }
 
-#contact .contact-info h2{
+#contact .contact-info h2 {
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 500;
 }
 
-#contact .contact-info h2 a{
+#contact .contact-info h2 a {
     color: black;
 }
 
@@ -705,37 +712,37 @@ h2 span{
 
 /* footer section starts */
 
-#footer{
+#footer {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 
-#footer .brand h1{
+#footer .brand h1 {
     color: white;
     transition: 0.3s ease;
     letter-spacing: 0.2rem;
 }
 
-#footer .brand h1 span{
+#footer .brand h1 span {
     color: #6e1833;
     transition: 0.3s ease;
 }
 
-#footer .brand h1:hover{
+#footer .brand h1:hover {
     color: #6e1833;
 }
 
-#footer .brand h1:hover span{
+#footer .brand h1:hover span {
     color: white;
 }
 
-#footer .footer{
+#footer .footer {
     min-height: 200px;
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 10px;
 }
 
-#footer h2{
+#footer h2 {
     color: white;
     font-weight: 500;
     font-size: 1.8rem;
@@ -745,29 +752,29 @@ h2 span{
     text-align: center;
 }
 
-#footer .social-icon{
+#footer .social-icon {
     display: flex;
     margin-bottom: 30px;
 }
 
-#footer .social-item{
+#footer .social-item {
     height: 50px;
     width: 50px;
     margin: 0 5px;
 }
 
-#footer .social-item img{
+#footer .social-item img {
     filter: grayscale(1);
     transition: 0.5s ease filter;
     margin-top: 5px;
     border-radius: 50px;
 }
 
-#footer .social-item img:hover{
+#footer .social-item img:hover {
     filter: grayscale(0);
 }
 
-#footer p{
+#footer p {
     color: white;
     font-size: 1.3rem;
 }
@@ -776,13 +783,13 @@ h2 span{
 
 /* keyframes start */
 
-@keyframes hamburger_pulse{
-    0%{
+@keyframes hamburger_pulse {
+    0% {
         opacity: 1;
         transform: scale(1);
     }
 
-    100%{
+    100% {
         opacity: 0;
         transform: scale(1.5);
     }
@@ -817,23 +824,23 @@ h2 span{
 
 /* media queries for tablet starts */
 
-@media only screen and (min-width: 768px){
-    .cta{
+@media only screen and (min-width: 768px) {
+    .cta {
         font-size: 2.5rem;
         padding: 20px 60px;
     }
 
-    h1.section-title{
+    h1.section-title {
         font-size: 7rem;
     }
 
-    #header .brand h1{
+    #header .brand h1 {
         font-size: 4rem;
     }
 
     /* hero starts */
 
-    #hero h1{
+    #hero h1 {
         font-size: 7rem;
     }
 
@@ -841,7 +848,7 @@ h2 span{
 
     /* service section starts */
 
-    #services .service-bottom .service-item{
+    #services .service-bottom .service-item {
         flex-basis: 45%;
         margin: 1.5%;
     }
@@ -850,7 +857,7 @@ h2 span{
 
     /* project sections starts */
 
-    #projects .project-item{
+    #projects .project-item {
         flex-direction: row;
         height: 400px;
         margin: 0;
@@ -858,22 +865,22 @@ h2 span{
         border-radius: 0;
     }
 
-    #projects .project-item:nth-child(even){
+    #projects .project-item:nth-child(even) {
         flex-direction: row-reverse;
     }
 
-    #projects .all-projects .project-info{
+    #projects .all-projects .project-info {
         height: 100%;
         width: 50%;
     }
 
-    #projects .all-projects .project-info .cta{
+    #projects .all-projects .project-info .cta {
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 1.5rem;
     }
 
-    #projects .all-projects .project-img{
+    #projects .all-projects .project-img {
         height: 100%;
     }
 
@@ -881,23 +888,23 @@ h2 span{
 
     /* about section starts */
 
-    #about .about{
+    #about .about {
         flex-direction: row;
         padding: 25px 20px;
     }
 
-    #about .col-left{
+    #about .col-left {
         width: 600px;
         height: 400px;
         padding-left: 60px;
     }
 
-    #about .about .col-left .about-img{
+    #about .about .col-left .about-img {
         width: 325px;
         height: 98%;
     }
 
-    #about .about .col-left .about-img::after{
+    #about .about .col-left .about-img::after {
         left: -45px;
         top: 35px;
         height: 96%;
@@ -905,12 +912,12 @@ h2 span{
         border: 10px solid #6e1833;
     }
 
-    #about .about .col-right{
+    #about .about .col-right {
         text-align: left;
         padding: 30px;
     }
 
-    #about .about .col-right h1{
+    #about .about .col-right h1 {
         text-align: left;
     }
 
@@ -918,7 +925,7 @@ h2 span{
 
     /* contact section starts */
 
-    #contact .contact{
+    #contact .contact {
         flex-direction: column;
         padding: 25px 0;
         align-items: center;
@@ -927,7 +934,7 @@ h2 span{
         margin-bottom: 100px;
     }
 
-    #contact .contact-items{
+    #contact .contact-items {
         display: flex;
         flex-direction: row;
         padding: 20px;
@@ -935,22 +942,22 @@ h2 span{
         width: 100%;
     }
 
-    #contact .contact-item{
+    #contact .contact-item {
         margin: 0 5px;
         padding: 10px;
         /* flex-direction: row; */
     }
 
-    #contact .contact-item .icon{
+    #contact .contact-item .icon {
         height: 100px;
         width: 100px;
     }
 
-    #contact .contact-item .icon img{
+    #contact .contact-item .icon img {
         object-fit: contain;
     }
 
-    #contact .contact-item .contact-info{
+    #contact .contact-item .contact-info {
         width: 100%;
         text-align: center;
         padding: 20px;
@@ -963,22 +970,22 @@ h2 span{
 
 /* media queries for desktop starts */
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
 
-    #header .nav-bar{
+    #header .nav-bar {
         max-width: 100%;
         margin: 0 20px;
     }
 
-    #header .brand h1{
+    #header .brand h1 {
         font-size: 4.5rem;
     }
 
-    #header .hamburger{
+    #header .hamburger {
         display: none;
     }
-    
-    #header .nav-list ul{
+
+    #header .nav-list ul {
         display: block;
         position: initial;
         height: auto;
@@ -986,41 +993,41 @@ h2 span{
         background-color: transparent;
     }
 
-    #header .nav-list ul li{
+    #header .nav-list ul li {
         display: inline-block;
     }
 
-    #header .nav-list ul li a{
+    #header .nav-list ul li a {
         font-size: 2rem;
         font-weight: 500;
     }
 
-    #header .nav-list ul li:hover a{
+    #header .nav-list ul li:hover a {
         color: #6e1833;
         transition: 0.3s ease;
         font-weight: bold;
     }
 
-    #header .nav-list ul a::after{
+    #header .nav-list ul a::after {
         display: none;
     }
 
-    #services .service-bottom .service-item{
+    #services .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
     }
 
-    #footer h2{
+    #footer h2 {
         font-size: 2.3rem;
         margin: 20px auto;
     }
 
-    #footer p{
+    #footer p {
         font-size: 1.8rem;
         margin: 20px auto;
     }
 
-    #footer .social-item img{
+    #footer .social-item img {
         height: 65px;
         width: 65px;
     }
